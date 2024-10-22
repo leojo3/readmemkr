@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
 
-inquierer
+inquirer
     .prompt([
         {
             type: 'input',
@@ -86,7 +86,7 @@ ${response.install}
 ${response.usage}
 
 ## License
-
+The license is ${response.license }
 
 ## Contributing 
 ${response.contributing}
