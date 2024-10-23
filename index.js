@@ -56,9 +56,22 @@ inquirer
 ])
 .then (response => {
 
+let badge = '';
+
+//user input to select a badge, uses https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba for the badges
+// could easily be expanded to allow for other licenses, currently has the two best open source licenses for software
+// and the two strongly reccomened by Github themselves
+
+    if (response.license = 'GPLv3') {badge = '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'};
+    if (response.license = 'MIT'){badge = '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'};
+    
+
+
+//Table of contents links WORK ON GITHUB - don't work in VSCode preview
+
 const template = `
 # ${response.title}
-license badge
+${badge}
 
 ## Description
 ${response.description}
@@ -86,7 +99,7 @@ ${response.install}
 ${response.usage}
 
 ## License
-The license is ${response.license }
+This project is licenesed under the terms of the ${response.license} license.
 
 ## Contributing 
 ${response.contributing}

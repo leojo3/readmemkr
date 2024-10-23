@@ -1,8 +1,9 @@
+
 # readmemkr
-license badge
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-description
+This project is a JavaScript based command line application which generates a README file for use on GitHub.
 
 ## Table of Contents 
 [Description](#Description)
@@ -21,19 +22,19 @@ description
 
 
 ## Installation
-installation
+Download the repo and run using Node.js
 
 ## Usage
-usage
+The program outputs a file called READMEtest.md which allows you to check the output for errors and typos before deploying live - change the name of the file to README.md to use on GitHub.
 
 ## License
-license
+This project is licenesed under the terms of the MIT license.
 
 ## Contributing 
-contributing
+This project is not currently looking for contributions, fork it if you want to add functionality.
 
 ## Tests
-tests
+N/A
 
 ## Questions
 
@@ -41,4 +42,5 @@ tests
 
 [GitHub Profile](https://github.com/leojo3)
 
-[Email](mailto:test@test.com)
+[Email](mailto:179286620+leojo3@users.noreply.github.com )
+
