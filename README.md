@@ -5,6 +5,8 @@
 ## Description
 This project is a JavaScript based command line application which generates a README file for use on GitHub.
 
+[Walkthrough Video](https://drive.google.com/file/d/1vZC5WqMQXpUW8h-t2cccD3NtXphgwuMz/view?usp=sharing)
+
 ## Table of Contents 
 [Description](#Description)
 
